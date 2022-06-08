@@ -1,0 +1,75 @@
+img {
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+p, a {
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  border: 0 none;
+  background: black;
+}
+
+.header {
+  background-color: #C7D36F;
+}
+
+.body {
+  background-color: #FCF9C6;
+}
+
+.footer {
+  background-color: #C7D36F;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr 1fr 1fr;
+}
+
+.logo {
+  grid-column-start: 1;
+}
+
+.headline {
+  grid-column: 3 / 5;
+  align-self: center;
+}
+
+.blog1-text {
+  margin-left: 80px;
+  grid-column: 1 / 4;
+}
+
+.blog1-pic {
+  grid-column: 4 / span 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.blog2-text {
+  margin-left: 80px;
+  grid-column: 1 / 4;
+}
+
+.blog2-pic {
+  grid-column: 4 / span 2;
+  align-self: center;
+  justify-self: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer a {
+  align-self: center;
+}
